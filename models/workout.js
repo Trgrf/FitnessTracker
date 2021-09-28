@@ -35,6 +35,7 @@ const workoutSchema = new Schema(
         },
         reps: {
           // TODO: For the schema of this attribute, define type as number
+          type: Number
         },
         sets: {
           // TODO: For the schema of this attribute, define type as number
